@@ -125,7 +125,7 @@ uint8_t quantizeValue(uint16_t input)
     return 0;
   }
   
-  if(abs(input-lastInput) >= 2)
+  if(abs(input-lastInput) >= 3)
   {
     lastInput = input;
   } else return lastQuantValue;
